@@ -12,7 +12,7 @@ class Login extends Component  {
         return(
             
 <div className="div-container" >
-<img src={logo} alt="logo" class="logo" />
+<img src={logo} alt="logo" class="logo"/>
 
 <h1 class="title">Create a new password</h1>
 <p class="subtitle">Enter a new password for your account</p>

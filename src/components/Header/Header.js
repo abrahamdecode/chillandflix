@@ -11,6 +11,8 @@ class Header extends Component {
             <a href="">About</a>
             <a href="">Gallery</a>
             <a href="">Contact</a>
+            <a href="">Movies</a>
+            <a href="">Series</a>
           </nav>
         </div>
       </header>
