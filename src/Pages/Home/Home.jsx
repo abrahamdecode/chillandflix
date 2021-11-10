@@ -3,10 +3,7 @@ import logo from '../../shared/images/Chillflix.png';
 
 
 class Home extends Component  {
-    state = {
-        email: "User Name",
-        password:"***********"
-    }
+   
     render(){
         return(
             

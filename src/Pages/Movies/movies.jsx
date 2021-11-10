@@ -1,8 +1,18 @@
 import React from 'react';
+import MovieCard from '../../components/MovieCard/MovieCard';
+import logo from '../../shared/images/Chillflix.png'; 
 
 const movies = () => {
     return (
-        <p>Movies component page</p>
+        <>
+        <div className="div-container" >
+<img src={logo} alt="logo" class="logo"/>
+   
+</div>
+       
+       
+        <MovieCard/>
+      </>
     );
 }
 
