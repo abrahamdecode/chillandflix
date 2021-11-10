@@ -1,11 +1,25 @@
-import React from 'react';
+import React, { Component } from 'react';
+import logo from '../../shared/images/Chillflix.png'; 
 
-const Home = () => {
-    return (
-        <div className="home-container">
-            <p>HOME</p>
-        </div>
-    );
-}
+
+class Home extends Component  {
+    state = {
+        email: "User Name",
+        password:"***********"
+    }
+    render(){
+        return(
+            
+<div className="div-container" >
+<img src={logo} alt="logo" class="logo"/>
+
+<h1 class="title">Peliculas y series</h1>
+
+   
+</div>
+         
+        );
+    }
+};
 
 export default Home;
