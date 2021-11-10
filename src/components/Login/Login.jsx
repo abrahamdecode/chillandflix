@@ -5,7 +5,7 @@ import './stylesLogin.css';
 
 class Login extends Component  {
     state = {
-        email: "User Name",
+        email: "useaname@gmai.com",
         password:"***********"
     }
     render(){
@@ -17,13 +17,13 @@ class Login extends Component  {
 <h1 class="title">Create a new password</h1>
 <p class="subtitle">Enter a new password for your account</p>
     <form action="submit" className="form-container">
-        <Input name="UserName" placeholder={this.state.email} type="text"/>
+        <Input name="Email" placeholder={this.state.email} type="text"/>
         <Input name="Password" placeholder={this.state.password} type="password"/>
         
-        <input type="button" value="Register"/>
+        <input type="button" value="Register" className="Login-Button"/>
     </form>   
 </div>
-            
+         
         );
     }
 };
